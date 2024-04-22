@@ -1,7 +1,12 @@
 .top-logo {
 	height: 72px;
 	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	background: #fff;
+	border-bottom: 1px solid #e5e5e5;
+	// box-shadow: ;
 }
 .main-content {
 	.top-bar__search {

@@ -9,8 +9,10 @@ export default function Home() {
 		<>
 			<div className='app-container'>
 				<div className='side-bar'>
-					<div className='top-logo'>LOGO</div>
-					<Menu style={{ width: '100%' }}>
+					<div className='top-logo'>
+						<h1>LOGO</h1>
+					</div>
+					<Menu style={{ width: '100%', height: '200px' }}>
 						<div key='1'>选项1</div>
 						<div key='2'>选项2</div>
 						<div key='3'>选项3</div>
